@@ -333,31 +333,8 @@ figure.popular-margin{
 .popular-image{
     object-fit: cover;
     max-width: 100%;
-    width: 55%;
-    height: 100%;
-    border-radius: 16px 0 0 16px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-.popular-image1 {
-    object-fit: cover;
-    max-width: 100%;
-    width: 84%;
-    height: 100%;
-    border-radius: 16px 0 0 16px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-top: 5px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-.popular-image2 {
-    object-fit: cover;
-    max-width: 100%;
-    width: 57%;
+    min-width: 40%;
+    width: 40%;
     height: 100%;
     border-radius: 16px 0 0 16px;
     padding-bottom: 5px;

@@ -86,13 +86,8 @@ figure.popular-margin{
   height: 250px;
 }
 .popular-image{
-  width: 50%;
-}
-.popular-image1{
-  width: 50%;
-}
-.popular-image2{
-  width: 50%;
+  min-width: 40%;
+  width: 40%;
 }
 .city {
   order: 2;

@@ -169,13 +169,10 @@
     max-width: 100%;
     width: 100%;
   }
-  img.popular-image1{
+  img.popular-image{
     max-width: 100%;
-    width: 52%;
-  }
-  img.popular-image2{
-    max-width: 100%;
-    width: 50%;
+    min-width:40%;
+    width: 40%;
   }
   #activites{
     margin-top: 20px;
