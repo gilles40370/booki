@@ -1,0 +1,336 @@
+@media screen and (max-width:768px){ 
+  figure.popular-margin {
+    height: 200px;
+  }
+  header {
+    width:100%;
+  }
+  #logo{
+    margin-left: 38%;
+    margin-right: 38%;
+    width: 100px;
+  }
+  nav{
+    justify-content: center;
+  }
+  a.sub-navlien:nth-child(1) {
+    margin-right: 39px;
+    padding-left: 56px;
+    padding-right: 39px;
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+   a.sub-navlien:nth-child(2) {
+    margin-left: 0px;
+    padding-right: 56px;
+    padding-left: 56px;
+    margin-top: 20px;
+  }
+  .sub-nav{
+    margin-left: -151px;
+    margin-right: 20px;
+    padding: 0px;
+  }
+  nav a:hover{
+    border-bottom: 1px solid #0065fc;
+    border-top: none;
+}
+  i.loupe.fa-search{
+    display: inline;
+    background-color: #0065fc;
+    color: white;
+    border-radius: 16px 16px 16px 16px;
+    -webkit-border-radius: 16px 16px 16px 16px;
+    -moz-border-radius: 16px 16px 16px 16px;
+    -ms-border-radius: 16px 16px 16px 16px;
+    -o-border-radius: 16px 16px 16px 16px;
+}
+.loupe {
+  padding-left: 18px;
+  margin-left: -25px;
+ }
+ 
+  .desktop{
+    display: none;
+  }
+  .filter-list {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .filter-items {
+    display: flex;
+    flex-direction: column;
+}
+ h2{
+  margin-left: 0px;
+}
+.filter span{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.filter{
+  margin-left: 0px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+/* filtre-economique */
+.filter-content > div:nth-child(1) {
+  margin-right: 10px;
+  }
+/* filre familliale */
+  .filter-content > div:nth-child(2) {
+  margin-left: 0px;
+  }
+  /*filtre-romantique  */
+  .filter-items > div:nth-child(1) {
+  margin-left: 0px;
+  }
+  /* filtre-animaux-autoriser */
+  .filter-items > div:nth-child(2) {
+  margin-left: 0px;
+  }
+ .results-message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+ .city > h3:nth-child(1) {
+  margin-left: 0px;
+}
+  section.apartments-list{
+    flex-direction: column;
+    width: 100%;
+  }
+  img.marseille{
+    max-width: 100%;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  }
+  .city{
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+  }
+  .city-apartments-list{
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .city-apartments-list > a{
+    max-width: 100%;
+    width: 100%;
+  }
+  .city-apartments-list{
+    max-width: 100%;
+    width: 100%;
+  }
+  .apartments-card{
+    margin-left: 0px;
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+  }
+  .lien{
+    margin-left: 30px;
+  }
+  aside.conteneur-popular{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .conteneur-popular > h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 31px;
+    margin-right: 26px;
+  }
+  i.fa-chart-line{
+    position: relative;
+    top: 2px;
+    padding-left: 0px;
+    right: 0px;
+    left: 72%;
+  }
+  .popular-flex{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  figure.popular-margin{
+    max-width: 100%;
+    width: 100%;
+  }
+  img.popular-image1{
+    max-width: 100%;
+    width: 52%;
+  }
+  img.popular-image2{
+    max-width: 100%;
+    width: 50%;
+  }
+  #activites{
+    margin-top: 20px;
+  }
+  .media > h2:nth-child(1) {
+    margin-left: 30px;
+    }
+  .activity-list{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .column,.column-double,.column-double-2{
+    max-width: 100%;
+    width: 100%;
+  }
+ figure.produit,.produit-double-court{
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .margin-parc,.produit-double-long{
+    max-width: 100%;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+  }
+  .produit-double-long{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+  }
+  .column-double > a:nth-child(1) > figure:nth-child(1) {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+  }
+  .column-double-2 > a:nth-child(1) > figure:nth-child(1) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 350px;
+  }  
+  section #activites > h3{
+    padding: 15px;
+  } 
+  img.produit{
+    height: 80%;
+  }
+  #activites > figure{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 51px;
+  }
+}
+@media  screen and (max-width:661px) {
+  i.fa-chart-line {
+    left: 67%;
+  }
+}
+@media  screen and (max-width:730px) {
+  i.fa-chart-line {
+    left: 69%;
+  }
+}
+@media screen and (max-width:520px) {
+  i.fa-chart-line {
+    left: 58%;
+    }
+}
+@media screen and (max-width:458px){
+.filter-items > div:nth-child(2) {
+  width: 60%;
+}
+.fa-info {
+  margin-top: -16px;
+}
+  .contneur-popular > h3{
+    margin-right: 0px;
+  }
+  i.fa-chart-line{
+    position: relative;
+    top: 2px;
+    padding-left: 0px;
+    right: 0px;
+    left:  45%;
+  }
+  img.popular-image1{
+    width:50%;
+  }
+  img.popular-image2{
+    width: 74%;
+  }
+  #filter-content > h2{
+    margin-left: 0px;
+  }
+  .filter{
+    width: 47%;
+  }
+  .filter-content{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  .filter span{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .filter-items{
+    width: 100%;
+  }
+  .filter-items > .filter{
+    width:59%;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#filter-header > h2:nth-child(1) {
+  margin-left: 0px;
+}
+.filter-content {
+  margin-right: 0px;
+  width: 100%;
+}
+.filter-items > div:nth-child(1) {
+  margin-top: 10px;
+}
+.filter-items {
+  margin-top: -17px;
+}
+
+  .result-message{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1{
+    font-size: 26px;
+  }
+  .popular-description{
+    padding-left: 20px;
+  }
+  .popular-description .star-popular{
+    padding-left: 20px;
+  }
+}

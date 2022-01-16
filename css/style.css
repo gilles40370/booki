@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap');
+
+header section{
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+footer{
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+}
+.wrapper{
+    padding-left: 25px;
+    padding-right: 25px;
+} 
+/* wildcard*/
+*{
+    box-sizing: border-box;
+   font-family: "raleway","sans-serif"; 
+}
+ section{
+    margin-top: 30px;
+}
+/* nav */
+header{
+    max-width: 1400px;
+    margin: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav a{
+    padding: 32px;
+}
+.sub-navlien{
+    max-width: 100%;
+    width: 100%;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    margin-right: 0px;
+}
+nav a:hover{
+    border-top: 1px solid #0065fc;
+}
+#logo{
+    margin-right: auto;
+    width: 165px;
+}
+.sub-nav{
+    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.sub-nav a:hover{
+    color: #0065fc;
+}
+
+section.wrapper{
+    max-width: 1400px;
+    margin: auto;
+}
+.wrapper{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* search-form */
+.search-form{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+i{
+    padding:16px 18px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+.search-form input{
+    padding: 10px;
+    border: 1px solid #F2F2F2;
+}
+.button{
+    display: flex;
+}
+.search-form button{
+    background-color: #0065fc;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0 16px 16px 0;
+    padding: 0 24px;
+    margin-left: -3px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: transform 200ms;
+}
+ i.loupe.fa-search{
+    display: none;
+}
+button:hover{
+    opacity:1;
+    transform: scale(1.03);
+}
+/* filter */
+.filter-list{
+    display: flex;
+}
+.filter-content{
+    display: flex;
+}
+.filter-content > div:nth-child(1) {
+    width: 175px;
+}
+.filter-content > div:nth-child(2) {
+    width: 140px;
+}
+.filter-items{
+    display: flex;
+}
+.filter-items > div:nth-child(1) {
+    width: 161px;
+}
+.filter-items > div:nth-child(2) {
+    width: 220px;
+}
+.filter .icone{
+    color: #0065fc;
+    background-color:#DEEBFF ;
+    border-radius: 50%;
+    margin:-2px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter{
+    border: 1px solid #f2f2f2;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    transition: all 100ms;
+    max-width: 100%;
+    height: 50px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.filter span{
+    font-weight: bold;
+    padding: 0 10px;
+}
+.filter:hover{
+    background-color: #deebff;
+    transform: scale(01.02);
+}
+ /* results-message  */
+.results-message{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+.results-message .fas{
+    color:#0065fc;
+    width: 20px;
+    height: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 10px;
+    padding: 5px;
+}
+/* hebergements  */
+ section.apartments-list{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+} 
+.city-apartments-list > a{
+    max-width: 100%;
+    width: 28%;
+}
+.apartments-list{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.city{
+    width: 65%;
+    background-color: #F2F2F2;
+    border-radius: 16px;
+}
+.city > h3{
+    padding-left: 30px;
+    padding-top: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.city-apartments-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.apartments-card{
+    background-color: white;
+    padding: 5px;
+    border-radius: 16px;
+    max-width: 100%;
+    width: 100%;
+    height: 90%;
+    margin: 20px 0px 20px 0px;
+    margin-left: 0px;
+    box-shadow: 0 10px 10px 10px #E0E0E0;
+}
+.apartments-card > img{
+    width: 100%;
+    height: 230px;
+    border-radius: 16px 16px 0px 0px ;
+       object-fit: cover;
+       object-position: center;
+}
+img.marseille{
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+    border-radius: 16px 16px 0 0;
+}
+figcaption{
+    padding-left: 10px;
+}
+.column figcaption{
+    padding-left: 15px;
+}
+
+.column.colone figcaption {
+    padding: 2px 15px;
+}
+
+ .column-double.colone figcaption h3,
+.column-double-2.colone figcaption h3{
+    padding: 10px 15px;
+    margin: 0;
+} 
+
+figcaption > h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+figcaption > p{
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+i.fas.fa-star{
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.blue{
+    color: #0065fc;
+}
+.grey{
+    color:lightgrey;
+}
+.lien{
+    display: block;
+    font-weight: bolder;
+    margin: 30px 30px 30px 40px;
+}
+ /* popular */
+.conteneur-popular{
+    width:  32%;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+}
+
+.conteneur-popular > h3{
+   margin-left: 32px;
+}
+.popular-flex > a{
+    max-width: 100%;
+    width: 100%;
+}
+.popular-flex{
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.blok-popular > h3{
+    padding-left: 20px;
+}
+i.fa-chart-line{
+    position: relative;
+    left: 173px;
+}
+@media screen and (max-width: 1216px){
+    i.fa-chart-line{
+       position: relative;
+       left: 20%;
+    }   
+}   
+.popular-description > h3{
+    font-size: 21px;
+}
+figure.popular-margin{
+    display: flex;
+    background-color: white;
+    height: 142px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 40px 0;
+    border-radius: 16px;
+    box-shadow: 0 10px 10px 10px #E0E0E0;
+}
+.popular-image{
+    object-fit: cover;
+    max-width: 100%;
+    width: 55%;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.popular-image1 {
+    object-fit: cover;
+    max-width: 100%;
+    width: 84%;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.popular-image2 {
+    object-fit: cover;
+    max-width: 100%;
+    width: 57%;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+figure.popular-margin > a{
+    margin-right: 0px;
+}
+p.margin{
+    margin-bottom: 0px;
+}
+
+i.fas.fa-star.popular-star{
+    margin-top: 30px;
+}
+
+.popular-description{
+    position: relative;
+}
+
+.popular-description .star-popular{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+/* activity-a-marseille */
+.colone{
+    width: 23%;
+}
+section#activites {
+    max-width: 1400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.media{
+    margin-bottom: 50px;
+}
+.activity-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-list .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    max-width: 100%;
+}
+.activity-list .column.produit{
+    margin-left: 10px;
+}
+#activites > h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+figure.produit{
+    width: 100%;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+    border-radius: 25px;
+    margin-top: 0;
+}
+img.produit{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 420px;
+}
+figcaption > h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.column-double{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produit-double-long{
+    max-width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+}
+img.fort-de-pomegues{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0;
+}
+.produit-double-court{
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+    width: 100%;
+    margin: 0;
+}
+img.ile-du-frioul{
+    width: 100%;
+    height: 150px;
+    margin-top: 0px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center
+}
+figure.produit{
+    margin: 0px;
+
+}
+img.calanques{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 80%;
+}
+.column-double-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.column-double-2 > a{
+    max-width: 100%;
+    width: 100%;
+}
+.produit-double-long{
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 0 #E0E0E0;
+    margin: 0;
+}
+img.notre-dame-de-la-garde{
+    width: 100%;
+    height: 185px;
+    border-radius: 25px 25px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+img.parc-longchamp{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px 25px 0px 0px;
+}
+
+#activites {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+/* footer */
+footer {
+    background-color:#F2F2F2 ;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    height: 359px;
+    justify-content: space-between;
+    padding-right: 30%;
+    padding-left: 10%;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer > a{
+    max-width: 100%;
+    width: 100%;
+    display: block;
+
+}
+footer.column {
+    width: 30%;
+}
+
+footer .column ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer .column ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
+.column h2{
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-top: 0px;
+}
+body > footer:nth-child(5) > div:nth-child(1) > h2:nth-child(1) {
+    margin-bottom: -12px;
+
+}
+   
+
