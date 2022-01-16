@@ -94,6 +94,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
  }
+ /* la section hebergements Marseille  */
  .city > h3:nth-child(1) {
   margin-left: 0px;
 }
@@ -140,6 +141,7 @@
   .lien{
     margin-left: 30px;
   }
+  /* la section populaire */
   aside.conteneur-popular{
     display: flex;
     flex-direction: column;
@@ -169,6 +171,7 @@
     max-width: 100%;
     width: 100%;
   }
+  /* pour les images pôpulaire elle ma poser pas mal de soucie mais le probleme a etais resolus grace as la mise en place d'un min-width */
   img.popular-image{
     max-width: 100%;
     min-width:40%;
@@ -241,6 +244,7 @@
     padding-left: 51px;
   }
 }
+/* cette icone ma poser des soucie mais cela as etais resolu par la mise en place de plusieur media */
 @media  screen and (max-width:661px) {
   i.fa-chart-line {
     left: 67%;
@@ -256,6 +260,7 @@
     left: 58%;
     }
 }
+/* voicie les modification prise sur une taille d iphone xr  */
 @media screen and (max-width:458px){
 .filter-items > div:nth-child(2) {
   width: 60%;
@@ -331,6 +336,7 @@
     padding-left: 20px;
   }
 }
+/* modif pour samsung galaxie s10 et tou autre ecran avec une limite de 360px */
 @media  screen and (max-width:360px) {
   i.fa-chart-line{
     left: 35%;
@@ -339,4 +345,5 @@
     padding-right: 14px;
    }
    
-}
+} 
+/* voici le code version mobil avec les mdeia queries */

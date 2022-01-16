@@ -1,4 +1,5 @@
 @media screen and (max-width:992px){
+  /*le header  */
 #logo{
   margin-left: 25px;
 }
@@ -8,12 +9,14 @@
   padding-right: 0px;
   margin-right: 24px;
 }
+/* la section wrapper */
 .filter{
     width: 27%;
 }
 h2{
   margin-left: -1px;
 }
+/* la section filtre ma poser quelle soucie mais rien d insurmontable  */
 filter {
   margin-top: 10px;
   max-width: 100%;
@@ -31,42 +34,44 @@ filter {
   padding-left: 5%;
   padding-right: 00%;
 }
+.filter-items {
+  display: flex;
+  flex-direction: column;
+  }
+  .filter-content {
+  display: flex;
+  }
+  .filter-list {
+  flex-direction: column;
+  }
+  .filter {
+  margin-bottom: 10px;
+  }
+  .filter-content > div:nth-child(2) {
+  margin-left: 0px;
+  }
+  .filter-items > div:nth-child(1) {
+  margin-left: 0px;
+  }
+  .filter-items > div:nth-child(2) {
+  margin-left: 0px;
+  }
+  .filter-content > div:nth-child(1) {
+  margin-left: 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  }
+  #filter-header > h2:nth-child(1) {
+  margin-left: 0px;
+  }
+/* la section hebergements à Marseille et l'aside populaire   */
 section.apartments-list{ 
   flex-direction: column;
 }
+/* la j ai voulus que l'aside passe au dessus de populaire  pour cela j ai choisie la proprieter order:1 */
 .conteneur-popular {
   order: 1;
   width: 100%;
-}
-.filter-items {
-display: flex;
-flex-direction: column;
-}
-.filter-content {
-display: flex;
-}
-.filter-list {
-flex-direction: column;
-}
-.filter {
-margin-bottom: 10px;
-}
-.filter-content > div:nth-child(2) {
-margin-left: 0px;
-}
-.filter-items > div:nth-child(1) {
-margin-left: 0px;
-}
-.filter-items > div:nth-child(2) {
-margin-left: 0px;
-}
-.filter-content > div:nth-child(1) {
-margin-left: 0px;
-margin-bottom: 10px;
-margin-right: 10px;
-}
-#filter-header > h2:nth-child(1) {
-margin-left: 0px;
 }
 i.fa-chart-line{
   padding-left: 0px;
@@ -103,6 +108,7 @@ figure.popular-margin{
 .city-apartments-list{
   margin: 0px;
 }
+/* la section acivity */
 .activity-list {
   flex-direction: column;
   padding-left: 25px;
@@ -176,6 +182,7 @@ div.colone:nth-child(3) > a:nth-child(1) > figure:nth-child(1) {
   width: 100%;
   height: 450px;
 } 
+/* le footer */
 div.column:nth-child(2) > h2:nth-child(1) {
   margin-bottom: 0px;
 }

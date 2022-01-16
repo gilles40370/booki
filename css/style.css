@@ -102,6 +102,7 @@ i{
     opacity: 0.9;
     transition: transform 200ms;
 }
+/* elle es en fonction que pour la version mobile  */
  i.loupe.fa-search{
     display: none;
 }
@@ -284,7 +285,7 @@ i.fas.fa-star{
     font-weight: bolder;
     margin: 30px 30px 30px 40px;
 }
- /* popular */
+ /* popular la section populaire  as la quelle j ai du rajouter pas mal de propieter etc.....*/
 .conteneur-popular{
     width:  32%;
     background-color: #f2f2f2;
@@ -363,7 +364,7 @@ i.fas.fa-star.popular-star{
     bottom: 15px;
     left: 10px;
 }
-/* activity-a-marseille */
+/* activity-a-marseille la je me suis servie de flexbox */
 .colone{
     width: 23%;
 }
