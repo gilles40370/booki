@@ -14,14 +14,14 @@
     justify-content: center;
   }
   a.sub-navlien:nth-child(1) {
-    margin-right: 39px;
+    margin-right: 32%;
     padding-left: 56px;
     padding-right: 39px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: -154px;
   }
    a.sub-navlien:nth-child(2) {
-    margin-left: 0px;
+    margin-left: 124%;
     padding-right: 56px;
     padding-left: 56px;
     margin-top: 20px;
