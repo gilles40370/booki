@@ -55,7 +55,7 @@
   }
   .filter-list {
     display: flex;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 10px;
    }
    .filter-items {
@@ -89,6 +89,7 @@
   /* filtre-animaux-autoriser */
   .filter-items > div:nth-child(2) {
   margin-left: 0px;
+  margin-top: 0px;
   }
  .results-message {
   margin-top: 10px;
