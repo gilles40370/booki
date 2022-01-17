@@ -262,6 +262,19 @@
 }
 /* voicie les modification prise sur une taille d iphone xr  */
 @media screen and (max-width:458px){
+  a.sub-navlien:nth-child(1) {
+    margin-right: 32%;
+    padding-left: 56px;
+    padding-right: 39px;
+    margin-top: 20px;
+    margin-left: 145px;
+  }
+  a.sub-navlien:nth-child(2) {
+    margin-left: -27%;
+    padding-right: 56px;
+    padding-left: 56px;
+    margin-top: 20px;
+  }
 .filter-items > div:nth-child(2) {
   width: 60%;
 }
