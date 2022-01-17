@@ -278,7 +278,9 @@
   }
 .filter-items > div:nth-child(2) {
   width: 60%;
-}
+  margin-left: 0px;
+  margin-top: 0px;
+  }
 .fa-info {
   margin-top: -16px;
 }
